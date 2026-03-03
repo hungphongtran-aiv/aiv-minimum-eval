@@ -1,0 +1,41 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "explore": {
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "gsd-planner": {
+      "model": "openai/gpt-5.2"
+    },
+    "gsd-plan-checker": {
+      "model": "kimi-for-coding/k2p5"
+    },
+    "gsd-phase-researcher": {
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "gsd-roadmapper": {
+      "model": "google/antigravity-claude-sonnet-4-6"
+    },
+    "gsd-project-researcher": {
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "gsd-research-synthesizer": {
+      "model": "kimi-for-coding/k2p5"
+    },
+    "gsd-codebase-mapper": {
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "gsd-executor": {
+      "model": "kimi-for-coding/k2p5"
+    },
+    "gsd-debugger": {
+      "model": "kimi-for-coding/k2p5"
+    },
+    "gsd-verifier": {
+      "model": "openai/gpt-5.3-codex"
+    },
+    "gsd-integration-checker": {
+      "model": "openai/gpt-5.3-codex"
+    }
+  }
+}
